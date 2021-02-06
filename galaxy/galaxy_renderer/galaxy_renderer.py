@@ -30,8 +30,8 @@ except ImportError:
     print(' Error: Software not installed properly !!')
     sys.exit()
 
-from Semesterprojekt.galaxy.galaxy_renderer.mouse_interactor import MouseInteractor
-from Semesterprojekt.galaxy.galaxy_renderer.simulation_constants import END_MESSAGE
+from galaxy.galaxy_renderer.mouse_interactor import MouseInteractor
+from galaxy.galaxy_renderer.simulation_constants import END_MESSAGE
 
 
 # initial window parameters

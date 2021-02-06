@@ -2,17 +2,14 @@ import multiprocessing
 import sys
 import time
 import math
-import timeit
 
 import numpy as np
 
-from Semesterprojekt.galaxy.galaxy_renderer.connection_config import IP_MASTER, PORT
-from Semesterprojekt.galaxy.galaxy_renderer.distributed_queue import TaskManager
-from Semesterprojekt.galaxy.galaxy_renderer.simulation_constants import END_MESSAGE
-import Semesterprojekt.galaxy.galaxy_calc as galaxy
-from numba.typed import List, Dict
-from numba import types
-import numba
+from galaxy.galaxy_renderer.connection_config import IP_MASTER, PORT
+from galaxy.galaxy_renderer.distributed_queue import TaskManager
+from galaxy.galaxy_renderer.simulation_constants import END_MESSAGE
+import galaxy.galaxy_calc as galaxy
+
 
 __FPS = 60
 

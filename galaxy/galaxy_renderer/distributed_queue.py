@@ -3,7 +3,7 @@ from __future__ import print_function
 from multiprocessing import JoinableQueue, Queue
 from multiprocessing.managers import SyncManager
 
-from connection_config import PORT
+from galaxy.galaxy_renderer.connection_config import PORT
 
 
 class TaskManager(SyncManager):

@@ -22,7 +22,7 @@ Helper class for mouse interaction
 
 import sys
 
-from Semesterprojekt.galaxy.galaxy_renderer.interaction_matrix import InteractionMatrix
+from galaxy.galaxy_renderer.interaction_matrix import InteractionMatrix
 
 try:
     from OpenGL import GLUT

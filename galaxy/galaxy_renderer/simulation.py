@@ -23,11 +23,9 @@ import sys
 from PyQt5 import uic
 from PyQt5 import QtWidgets
 
-# from Semesterprojekt.galaxy.galaxy_renderer import simulation_mockup, galaxy_renderer
-# from Semesterprojekt.galaxy.galaxy_renderer.simulation_constants import END_MESSAGE
-from Semesterprojekt.galaxy.galaxy_renderer.simulation_constants import END_MESSAGE
-from Semesterprojekt.galaxy.galaxy_renderer import simulation_mockup, andromeda_controller
-from Semesterprojekt.galaxy.galaxy_renderer import galaxy_renderer
+from galaxy.galaxy_renderer.simulation_constants import END_MESSAGE
+from galaxy.galaxy_renderer import simulation_mockup, andromeda_controller
+from galaxy.galaxy_renderer import galaxy_renderer
 
 
 class SimulationGUI(QtWidgets.QWidget):

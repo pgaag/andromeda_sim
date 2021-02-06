@@ -7,8 +7,8 @@ from numba import prange, jit, types
 from numba.typed import List, Dict
 from multiprocessing import cpu_count, Process
 
-from connection_config import PORT, IP_WORKER
-from distributed_queue import TaskManager
+from galaxy.galaxy_renderer.connection_config import PORT, IP_WORKER
+from galaxy.galaxy_renderer.distributed_queue import TaskManager
 
 """
 Port: 34705

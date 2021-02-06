@@ -26,8 +26,8 @@ import time
 
 import numpy as np
 
-from Semesterprojekt.galaxy.galaxy_renderer.simulation_constants import END_MESSAGE
-import Semesterprojekt.galaxy.galaxy_calc as galaxy
+from galaxy.galaxy_renderer.simulation_constants import END_MESSAGE
+import galaxy.galaxy_calc as galaxy
 
 __FPS = 60
 __DELTA_ALPHA = 0.01

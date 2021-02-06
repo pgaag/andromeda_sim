@@ -22,8 +22,8 @@ import multiprocessing
 
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import Qt
-from Semesterprojekt.galaxy.galaxy_renderer import simulation_mockup, galaxy_renderer, andromeda, andromeda_controller
-from Semesterprojekt.galaxy.galaxy_renderer.simulation_constants import END_MESSAGE
+from galaxy.galaxy_renderer import simulation_mockup, galaxy_renderer, andromeda, andromeda_controller
+from galaxy.galaxy_renderer.simulation_constants import END_MESSAGE
 
 
 class SimulationGUI(QtWidgets.QWidget):
